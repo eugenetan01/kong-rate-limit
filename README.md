@@ -10,10 +10,14 @@ __Pre-requisities__
 
 __Demo Flow__
 1. Run the demo.py first to simulate when API requests > 5 per minute <br/>
-  a. Show on the console that last request is 429 status code with custom error message
+  a. Show on the console that last request (6th request) is a 429 status code with custom error message
 2. Run the command `locust`
 3. Navigate to http://localhost:8089
 4. Setup a load test of: <br/>
   a. 10 users <br/>
   b. ramp up of 10
-5. Watch the number of errors increase 
+5. Watch the number of errors increase
+
+__Measurement__
+1. Navigate to the statistics dashboard
+2. Show the number of success vs num of errors is a difference of 5 - highlighting that the rate limiting plugin is working
