@@ -10,7 +10,7 @@ __Demo Flow__
   a. Show on the console that last request is 429 status code with custom error message
 2. Run the command `locust`
 3. Navigate to http://localhost:8089
-4. Setup a load test of:
-  a. 10 users
+4. Setup a load test of: <br/>
+  a. 10 users <br/>
   b. ramp up of 10
 5. Watch the number of errors increase 
