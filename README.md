@@ -23,8 +23,8 @@ __Demo Flow__
 2. Run the command `locust`
 3. Navigate to http://localhost:8089
 4. Setup a load test of: <br/>
-  a. 10 users <br/>
-  b. ramp up of 10
+  a. Num of users: 10 <br/>
+  b. Ramp up: 10
 5. Watch the number of errors increase as requests per second increase
 
 __Measurement__
