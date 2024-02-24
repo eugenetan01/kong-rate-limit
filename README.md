@@ -6,7 +6,7 @@ __Pre-requisities__
 4. Run the ```pip3 install -r requirements.txt``` to install dependencies 
 
 __Demo Flow__
-1. Run the demo.py first to simulate when API requests > 5 per minute
+1. Run the demo.py first to simulate when API requests > 5 per minute <br/>
   a. Show on the console that last request is 429 status code with custom error message
 2. Run the command `locust`
 3. Navigate to http://localhost:8089
