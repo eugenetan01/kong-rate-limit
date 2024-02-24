@@ -13,7 +13,7 @@ __Pre-requisities__
 8. Select Scoped and add the following configurations <br/>
   a. Gateway Service: 'example_gateway_service - xxxx' <br/>
   b. Route: 'httpbin - xxxx' <br/>
-  c. Error Code: '429' <br/>
+  c. Error Code: 429 <br/>
   d. Error Message: 'API rate limit exceeded. Please try again in 1 min.' <br/>
   e. Minute: 5 
 
