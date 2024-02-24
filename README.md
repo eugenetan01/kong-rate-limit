@@ -16,7 +16,7 @@ __Demo Flow__
 4. Setup a load test of: <br/>
   a. 10 users <br/>
   b. ramp up of 10
-5. Watch the number of errors increase
+5. Watch the number of errors increase as requests per second increase
 
 __Measurement__
 1. Navigate to the statistics dashboard
