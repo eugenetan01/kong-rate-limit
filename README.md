@@ -6,7 +6,16 @@ __Pre-requisities__
 1. Sign up for Kong Konnect [here](https://cloud.konghq.com/register)
 2. Go through the Konnect [Get Started](https://docs.konghq.com/konnect/getting-started/)
 3. Setup rate limiting plug-in to limit the number of requests to the service to 5 requests per minute
-4. Run the ```pip3 install -r requirements.txt``` to install dependencies 
+4. Run the ```pip3 install -r requirements.txt``` to install dependencies
+5. Go to Kong Konnect plugins page
+6. Search and select 'Rate Limiting'
+7. Enable the plugin
+8. Select Scoped and add the following configurations <br/>
+  a. Gateway Service: 'example_gateway_service - xxxx' <br/>
+  b. Route: 'httpbin - xxxx' <br/>
+  c. Error Code: '429' <br/>
+  d. Error Message: 'API rate limit exceeded. Please try again in 1 min.' <br/>
+  e. Minute: 5 
 
 __Demo Flow__
 1. Run the demo.py first to simulate when API requests > 5 per minute <br/>
