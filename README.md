@@ -1,3 +1,6 @@
+__Objective__
+- Prove the ability to rate limit requests per minute to no more than 5 / minute
+  
 __Pre-requisities__
 
 1. Sign up for Kong Konnect [here](https://cloud.konghq.com/register)
