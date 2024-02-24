@@ -24,8 +24,9 @@ __Demo Flow__
 3. Navigate to http://localhost:8089
 4. Setup a load test of: <br/>
   a. Num of users: 10 <br/>
-  b. Ramp up: 10
-5. Watch the number of errors increase as requests per second increase
+  b. Ramp up: 10 <br/>
+  c. host: http://localhost:8000
+6. Watch the number of errors increase as requests per second increase
 
 __Measurement__
 1. Navigate to the statistics dashboard
