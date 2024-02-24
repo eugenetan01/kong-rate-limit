@@ -1,5 +1,5 @@
 __Objective__
-- Prove the ability to rate limit requests per minute to no more than 5 / minute
+- Prove the ability to rate limit requests per minute to no more than 5 requests / minute
   
 __Pre-requisities__
 
