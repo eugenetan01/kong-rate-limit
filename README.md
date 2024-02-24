@@ -29,5 +29,5 @@ __Demo Flow__
 6. Watch the number of errors increase as requests per second increase
 
 __Measurement__
-1. Navigate to the statistics dashboard
+1. Navigate to the statistics dashboard in locust
 2. Show the number of success vs num of errors is a difference of 5 - highlighting that the rate limiting plugin is working
