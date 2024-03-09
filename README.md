@@ -15,7 +15,8 @@ __Pre-requisities__
   b. Route: 'httpbin - xxxx' <br/>
   c. Error Code: 429 <br/>
   d. Error Message: 'API rate limit exceeded. Please try again in 1 min.' <br/>
-  e. Minute: 5 
+  e. Minute: 5
+9. To start the service again locally, go to Docker and run the docker container that initiates local machine as a Data Plane Node
 
 __Demo Flow__
 1. Run the demo.py first to simulate when API requests > 5 per minute <br/>
