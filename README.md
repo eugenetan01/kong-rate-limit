@@ -16,7 +16,11 @@ __Pre-requisities__
   c. Error Code: 429 <br/>
   d. Error Message: 'API rate limit exceeded. Please try again in 1 min.' <br/>
   e. Minute: 5
-9. To start the service again locally, go to Docker and run the docker container that initiates local machine as a Data Plane Node
+
+__Optional - when restarting local client machine:__
+1. To start the service again locally, go to Docker and run the docker container that initiates local machine as a Data Plane Node
+2. To reset the Data Plane Node, go to Data Plane Nodes in Kong Konnect UI and create new Data Plane Node. 
+3. Run the Docker script locally on the machine to establish the sync between local as a data plane node and kong Konnect 
 
 __Demo Flow__
 1. Run the demo.py first to simulate when API requests > 5 per minute <br/>
